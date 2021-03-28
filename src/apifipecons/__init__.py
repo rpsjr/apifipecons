@@ -40,5 +40,4 @@ class apiFIPE():
 if __name__ == '__main__':
     #apiFIPE = apiFIPE()
     result = apiFIPE().getCodigoMarca(2018,'001461-3')
-    print(text(result))
-    print(type(result))
+    print(result)
